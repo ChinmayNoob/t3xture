@@ -1,15 +1,20 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { DM_Sans, Poppins } from "next/font/google";
 import "./globals.css";
+import NavbarComponent from "@/components/navbar/navbar-component";
+import ScrollToTop from "@/components/scroll-to-top";
+import WhatsAppButton from "@/components/whatsapp";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+const dmsans = DM_Sans({
+  subsets: ['latin'],
+  weight: ['200', '300', '400', '500', '600', '700'],
+  variable: '--font-dmsans', 
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const poppins = Poppins({
+  subsets: ['latin'],
+  weight: ['200', '300', '400', '500', '600', '700'],
+  variable: '--font-poppins', 
 });
 
 export const metadata: Metadata = {
@@ -25,9 +30,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${poppins.variable} ${dmsans.variable} antialiased`}
       >
+        <NavbarComponent />
         {children}
+        <ScrollToTop />
+        <WhatsAppButton />
       </body>
     </html>
   );
