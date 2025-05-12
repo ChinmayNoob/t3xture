@@ -112,7 +112,7 @@ export default function Home() {
                                 <Image
                                     width={40}
                                     height={40}
-                                    src="https://randomuser.me/api/portraits/men/32.jpg"
+                                    src="/assets/avatars/avatar1.png"
                                     alt="Avatar 1"
                                     className="w-10 h-10 rounded-full border-2 hover:border-t3xture transition duration-200 border-[#101010]
                             "
@@ -122,7 +122,7 @@ export default function Home() {
                                 <Image
                                     width={40}
                                     height={40}
-                                    src="https://randomuser.me/api/portraits/women/45.jpg"
+                                    src="/assets/avatars/avatar2.png"
                                     alt="Avatar 2"
                                     className="w-10 h-10  transition duration-200 hover:border-t3xture rounded-full border-2 border-[#101010]"
                                 />
@@ -132,7 +132,7 @@ export default function Home() {
                                 <Image
                                     width={40}
                                     height={40}
-                                    src="https://randomuser.me/api/portraits/men/52.jpg"
+                                    src="/assets/avatars/avatar3.png"
                                     alt="Avatar 3"
                                     className="w-10 h-10 transition duration-200 hover:border-t3xture rounded-full border-2 border-[#101010]"
                                 />
@@ -142,7 +142,7 @@ export default function Home() {
                                 <Image
                                     width={40}
                                     height={40}
-                                    src="https://randomuser.me/api/portraits/men/78.jpg"
+                                    src="/assets/avatars/avatar4.png"
                                     alt="Avatar 4"
                                     className="w-10 h-10 transition duration-200 hover:border-t3xture rounded-full border-2 border-[#101010]"
                                 />
@@ -238,7 +238,7 @@ export default function Home() {
                                 <Image
                                     width={40}
                                     height={40}
-                                    src="https://randomuser.me/api/portraits/men/32.jpg"
+                                    src="/assets/avatars/avatar1.png"
                                     alt="Avatar 1"
                                     className="w-10 h-10 transition duration-200 hover:border-t3xture rounded-full border-2 border-[#101010]"
                                 />
@@ -248,7 +248,7 @@ export default function Home() {
                                 <Image
                                     width={40}
                                     height={40}
-                                    src="https://randomuser.me/api/portraits/women/45.jpg"
+                                    src="/assets/avatars/avatar2.png"
                                     alt="Avatar 2"
                                     className="w-10 h-10  transition duration-200 hover:border-t3xture rounded-full border-2 border-[#101010]"
                                 />
@@ -258,7 +258,7 @@ export default function Home() {
                                 <Image
                                     width={40}
                                     height={40}
-                                    src="https://randomuser.me/api/portraits/men/52.jpg"
+                                    src="/assets/avatars/avatar3.png"
                                     alt="Avatar 3"
                                     className="w-10 h-10 transition duration-200 hover:border-t3xture rounded-full border-2 border-[#101010]"
                                 />
@@ -268,7 +268,7 @@ export default function Home() {
                                 <Image
                                     width={40}
                                     height={40}
-                                    src="https://randomuser.me/api/portraits/men/78.jpg"
+                                    src="/assets/avatars/avatar4.png"
                                     alt="Avatar 4"
                                     className="w-10 h-10 transition duration-200 hover:border-t3xture rounded-full border-2 border-[#101010]"
                                 />
