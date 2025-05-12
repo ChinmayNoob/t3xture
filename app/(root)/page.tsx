@@ -8,6 +8,8 @@ import { RiMacbookLine } from 'react-icons/ri'
 import { FaHeadphonesAlt } from 'react-icons/fa'
 import Image from 'next/image'
 import { GiRoundStar } from 'react-icons/gi'
+import Sales from './sections/sales/page'
+import AboutUs from './sections/about-us/page'
 
 export default function Home() {
     const fadeInUp = {
@@ -305,6 +307,8 @@ export default function Home() {
                     </p>
                 </motion.div>
             </section>
+            <Sales />
+            <AboutUs />
         </main>
 
     )
