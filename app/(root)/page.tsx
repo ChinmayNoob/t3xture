@@ -10,6 +10,12 @@ import Image from 'next/image'
 import { GiRoundStar } from 'react-icons/gi'
 import Sales from './sections/sales/page'
 import AboutUs from './sections/about-us/page'
+import Features from './sections/features/page'
+import Footer from '@/components/footer'
+import ContactUs from './sections/contact-us/page'
+import Reviews from './sections/reviews/page'
+import OurServices from './sections/our-services/page'
+import Projects from './sections/projects/page'
 
 export default function Home() {
     const fadeInUp = {
@@ -309,6 +315,12 @@ export default function Home() {
             </section>
             <Sales />
             <AboutUs />
+            <Features />
+            <OurServices />
+            <Projects />
+            <Reviews />
+            <ContactUs />
+            <Footer/>
         </main>
 
     )
