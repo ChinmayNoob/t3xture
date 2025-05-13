@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import { HiOutlineSparkles } from "react-icons/hi";
 import { TbMoodPlus } from "react-icons/tb";
-import { MdEmojiPeople, MdVerified } from "react-icons/md";
+import { MdVerified } from "react-icons/md";
 
 interface Review {
     text: string;
@@ -60,6 +60,7 @@ const Reviews = () => {
     const reviews = [...initialReviews, ...initialReviews, ...initialReviews];
 
     useEffect(() => {
+        // eslint-disable-next-line prefer-const
         let timeoutId: NodeJS.Timeout | null = null;
         let currentX = 0;
 
