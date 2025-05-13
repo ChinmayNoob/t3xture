@@ -119,8 +119,8 @@ export default function Projects() {
                             variants={buttonVariants}
                             whileHover="hover"
                             whileTap="tap"
-                            onClick={() => setSelectedCategory("brandings")}
-                            className={`text-[#ccc] w-full md:w-auto ${selectedCategory === "brandings" ? "bg-indigo-600 text-white" : "hover:bg-indigo-600 hover:text-white"} duration-300 transition-all font-poppins px-6 py-3 flex items-center justify-center md:justify-start gap-2`}
+                            onClick={() => setSelectedCategory("branding")}
+                            className={`text-[#ccc] w-full md:w-auto ${selectedCategory === "branding" ? "bg-indigo-600 text-white" : "hover:bg-indigo-600 hover:text-white"} duration-300 transition-all font-poppins px-6 py-3 flex items-center justify-center md:justify-start gap-2`}
                         >
                             <motion.span variants={iconVariants}>
                                 <TbBrand4Chan className="text-xl" />
