@@ -114,7 +114,7 @@ const MobileNavigation = () => {
 
                             <div className="w-full px-4 mt-8">
                                 <Link
-                                    href="/planejamento"
+                                    href="/planning"
                                     onClick={handleNavigation}
                                     className="w-full py-3 bg-[#4F46E5] text-white rounded-xl text-center font-poppins font-medium h-12 inline-flex items-center justify-center hover:bg-[#4338CA] transition-colors"
                                 >

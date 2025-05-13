@@ -320,7 +320,7 @@ export default function Home() {
             <Projects />
             <Reviews />
             <ContactUs />
-            <Footer/>
+            <Footer />
         </main>
 
     )

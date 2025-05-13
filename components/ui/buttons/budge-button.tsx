@@ -13,7 +13,7 @@ const MakeBudge = () => {
             className="z-50"
         >
             <Link
-                href="/plannings"
+                href="/planning"
                 className="py-2 px-4 md:py-2.5 md:px-5 hidden sm:inline-flex bg-t3xture text-white rounded-xl text-sm font-poppins font-medium items-center gap-2 transition duration-300 hover:scale-105 hover:bg-white hover:text-black"
             >
                 <motion.div
