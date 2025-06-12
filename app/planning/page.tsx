@@ -224,7 +224,7 @@ export default function Planning() {
                                                         onClick={(e) => {
                                                             e.preventDefault();
                                                             e.stopPropagation();
-                                                            window.location.href = "/projetos";
+                                                            window.location.href = "/projects";
                                                         }}
                                                         className="px-3 py-1 bg-indigo-600 font-poppins text-white rounded-lg text-sm"
                                                     >

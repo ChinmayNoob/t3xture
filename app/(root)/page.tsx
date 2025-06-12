@@ -101,7 +101,7 @@ export default function Home() {
                         >
                             <FaWhatsapp className="w-6 h-6 md:w-8 md:h-8 transition duration-300 hover:scale-110 cursor-pointer hover:text-[#717BFE]" />
                         </Link>
-                        <Link href="/projetos" target="_blank" rel="noopener noreferrer">
+                        <Link href="/projects" target="_blank" rel="noopener noreferrer">
                             <RiMacbookLine className="w-6 h-6 md:w-8 md:h-8 transition duration-300 hover:scale-110 cursor-pointer hover:text-[#717BFE]" />
                         </Link>
                         <Link
@@ -221,7 +221,7 @@ export default function Home() {
                         >
                             <FaWhatsapp className="w-6 h-6 md:w-8 md:h-8 transition duration-300 hover:scale-110 cursor-pointer hover:text-[#717BFE]" />
                         </Link>
-                        <Link href="/projetos" target="_blank" rel="noopener noreferrer">
+                        <Link href="/projects" target="_blank" rel="noopener noreferrer">
                             <RiMacbookLine className="w-6 h-6 md:w-8 md:h-8 transition duration-300 hover:scale-110 cursor-pointer hover:text-[#717BFE]" />
                         </Link>
                         <Link
