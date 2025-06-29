@@ -433,24 +433,24 @@ const Sites = () => {
 
     const projects = {
         branding: [
-            "/assets/projects/tonemaki.png",
-            "/assets/projects/awp.png",
-            "/assets/projects/greenspace.png",
-            "/assets/projects/moore.png",
+            "/assets/projects/tonemaki.webp",
+            "/assets/projects/awp.webp",
+            "/assets/projects/greenspace.webp",
+            "/assets/projects/moore.webp",
 
 
         ],
         ecommerce: [
-            "/assets/projects/brewdistrict.png",
-            "/assets/projects/sol.png",
-            "/assets/projects/postfamiliar.png",
-            "/assets/projects/mschf.png",
+            "/assets/projects/brewdistrict.webp",
+            "/assets/projects/sol.webp",
+            "/assets/projects/postfamiliar.webp",
+            "/assets/projects/mschf.webp",
         ],
         finance: [
-            "/assets/projects/xapo.png",
-            "/assets/projects/composer.png",
-            "/assets/projects/kiln.png",
-            "/assets/projects/flayks.png",
+            "/assets/projects/xapo.webp",
+            "/assets/projects/composer.webp",
+            "/assets/projects/kiln.webp",
+            "/assets/projects/flayks.webp",
         ],
     };
 

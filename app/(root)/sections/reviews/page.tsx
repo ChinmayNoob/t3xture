@@ -18,26 +18,26 @@ const initialReviews: Review[] = [
         text: "A platform revolutionized our way of working. The simplicity and efficiency are impressive. It's exactly what we needed.",
         author: "Charles Leclerc",
         role: "CEO of Legasse",
-        avatar: "/assets/avatars/avatar1.png"
+        avatar: "/assets/avatars/avatar1.webp"
 
     },
     {
         text: "Since implementing the solution, our productivity has increased significantly. The intuitive interface makes all the difference.",
         author: "Ana Sweeney",
         role: "Co-founder of DevBrasil",
-        avatar: "/assets/avatars/avatar1.png"
+        avatar: "/assets/avatars/avatar1.webp"
     },
     {
         text: "We tested several alternatives on the market, but nothing compares. The experience is simply superior in all aspects.",
         author: "Carlos Sainz",
         role: "CTO of InovaTech",
-        avatar: "/assets/avatars/avatar1.png"
+        avatar: "/assets/avatars/avatar1.webp"
     },
     {
         text: "The team delivered beyond expectations. The support and dedication were exceptional from start to finish of the project.",
         author: "Max Verstappen",
         role: "CEO of InnovateBR",
-        avatar: "/assets/avatars/avatar1.png"
+        avatar: "/assets/avatars/avatar1.webp"
     }
 ];
 
