@@ -29,6 +29,7 @@ body {
   margin: 0;
   color: var(--foreground);
   font-family: var(--font-poppins);
+  overflow-x: hidden;
 }
 
 .custom-scrollbar::-webkit-scrollbar {
